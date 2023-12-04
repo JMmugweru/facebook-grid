@@ -1,0 +1,55 @@
+@media only screen and (  max-width: 900px) {
+    body{
+        overflow-x: hidden;
+    }
+    .topcontainer{
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 30px;
+        padding-left: 22%;
+    }
+    .logocontainer{ 
+        width: 100%;
+        padding: 1rem;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .caption p{
+        width: 65%;
+        font-size: clamp(1.45rem, 50%, 1.5rem);
+        @media (max-width: 850px){
+            width: 80%;
+        }
+    }
+    .card{
+        max-width: auto;
+    }
+    .topcard{
+        width: 100%;
+    }
+    .formcontainer{
+        width: 100%;
+    }
+    .bottomcard{
+        width: auto;
+    }
+    .cardtext{
+        width: auto;
+    }
+    .footer{
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .languages{
+        width: 100%;
+    }
+    .hr{
+        width: 90%;
+    }
+    .links{
+        width: 100%;
+    }
+}

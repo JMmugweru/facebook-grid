@@ -1,0 +1,63 @@
+@media only screen and ( max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    .topcontainer{
+        max-width: 600px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px;
+        padding-left: 5%;
+    }
+    .logocontainer{
+        width: 100%;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .caption p{
+        width: 100%;
+        @media (max-width: 425px){
+            width: 100%;
+            font-size: clamp(1.15rem, 50%, 1.25rem);
+            line-height: 1.5rem;
+        }
+        @media (max-width: 300px){
+            width: 100%;
+            font-size: clamp(1rem, 50%, 1.125rem);
+            line-height: 1.25rem;
+        }
+    }
+    .card{
+        max-width: 400px;
+    }
+    .topcard{
+        width: 100%;
+    }
+    .formcontainer{
+        width: 100%;
+    }
+    .bottomcard{
+        width: auto;
+    }
+    .cardtext{
+        width: auto;
+    }
+    .bottomcontainer{
+        padding-left: 1%;
+    }
+    .footer{
+        max-width: 600px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .languages{
+        width: 100%;
+    }
+    .hr{
+        width: 90%;
+    }
+    .links{
+        width: 100%;
+    }
+}

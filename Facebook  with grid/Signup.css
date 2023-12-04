@@ -1,0 +1,229 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    background-color: #e1e3e6;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+  }
+  .title {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-family: 'Poppins';
+    color: #000;
+    font-weight: 500;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+
+  }
+  .title::before,.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: #129c0f;
+  }
+  .title::before {
+    width: 18px;
+    height: 18px;
+    background-color: #129c0f;
+  }
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inter' sans-serif;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  .signin a {
+    color: #1382d8;
+    text-decoration: none;
+    font-size: .85rem;
+    font-weight: 500;
+    font-family: 'Inter';
+  }
+  
+  .signin a:hover {
+    text-decoration: underline #1351d8;
+  }
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 98%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Inter';
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Inter';
+  }
+  .form input{
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-family: 'Inter';
+    color: #151515;
+    top: 20px;
+  }
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 0px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    letter-spacing: .012rem;
+  }
+  .form label .input:valid + span {
+    color: rgb(7, 223, 7);
+  }
+  .form .input-box {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .input-box label {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins';
+  }
+  .form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 35px;
+    width: 95%;
+    outline: none;
+    font-size: 1rem;
+    color: #808080;
+    margin-top: 5px;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #f3f0f0;
+  }
+  .input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .input-box input:focus{
+    border: 1px solid #f40707;
+  }
+  
+  .form .gender-box {
+    margin-top: 10px;
+  }
+  
+  .form :where(.gender-option, .gender) {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    color: #808080;
+    font-size: .85rem;
+    font-weight: 500;
+    font-family: 'Poppins';
+  }
+  .form .gender {
+    column-gap: 5px;
+  }
+  .gender input {
+    accent-color: #1382d8;
+  }
+  .form :where(.gender input, .gender label) {
+    cursor: pointer;
+  }
+  .gen{
+    color: #808080;
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 1rem;
+  }
+  .address :where(input, .select-box) {
+    margin-top: 10px;
+  }
+  .select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 4px solid #eda;
+    color: #808080;
+    font-size: 1rem;
+    background: #FCEDDA;
+  }
+  .form button {
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: 0.12rem;
+    transition: all 0.2s ease;
+    min-height: 50px;
+  }
+  .form button:hover {
+    background: #4a7652;
+  }
+  .submit {
+    border: none;
+    background: #07a221;
+    padding: 10px;
+    border-radius: 10px;
+    transform: .3s ease;
+    width: 60%;
+    align-self: center;
+    cursor: pointer;
+  }
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+  
+  
+  
+  

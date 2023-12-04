@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="/Signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="images/facebook.512x511.png">
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="form">
+            <div class="words">
+                <p class="title">Sign Up</p>
+                <p class="message">It's quick and easy. </p>
+            </div>
+                <div class="flex">
+                <label>
+                    <input class="input" type="text" placeholder="" required="">
+                    <span>Firstname</span>
+                </label>
+        
+                <label>
+                    <input class="input" type="text" placeholder="" required="">
+                    <span>Lastname</span>
+                </label>
+            </div>  
+                    
+            <label>
+                <input class="input" type="email" placeholder="" required="">
+                <span>Mobile number or email address</span>
+            </label> 
+                
+            <label>
+                <input class="input" type="password" placeholder="" required="">
+                <span>New Password</span>
+            </label>
+            <label>
+                <input class="input" type="password" placeholder="" required="">
+                <span>Confirm password</span>
+            </label>
+            <div class="input-box">
+                <label>Birth Date</label>
+                <input required="" placeholder="Enter birth date" type="date">
+              </div>
+              <div class="gender-box">
+                <label class="gen">Gender</label>
+                <div class="gender-option">
+                  <div class="gender">
+                    <input checked="" name="gender" id="check-male" type="radio">
+                    <label for="check-male">Male</label>
+                  </div>
+                  <div class="gender">
+                    <input name="gender" id="check-female" type="radio">
+                    <label for="check-female">Female</label>
+                  </div>
+                  <div class="gender">
+                    <input name="gender" id="check-other" type="radio">
+                    <label for="check-other">Prefer not to say</label>
+                  </div>
+                </div>
+              </div>
+              <p class="signin">People who use our service may have uploaded your contact information to Facebook.<a href="#">Learn more.</a> </p>
+              <p class="signin">By clicking Sign Up, you agree to our<a href="#">Terms, Privacy Policy</a> and <a href="#">Cookies policy.</a> You may receive SMS notifictions from us and can opt at any time.</p>
+            <button class="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

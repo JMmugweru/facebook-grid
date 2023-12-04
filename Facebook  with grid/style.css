@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f2f5;
+}
+.container{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+.topcontainer{
+    max-width: 1128px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    min-height: 65dvh;
+
+}
+.logocontainer{
+    max-width: 700px;
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    width: 75%;
+    margin: -20px;
+}
+.caption{
+    width: 100%;
+}
+.caption p{
+    font-size: 1.85rem;
+    line-height: 2rem;
+    width: auto;
+    font-family: 'Inter';
+    font-weight: 500;
+    color: #373737;
+}
+.cardcontainer{
+    max-width: 450px;
+}
+.card{
+    background: #ffffff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 25px 25px;
+    border-radius: 10px;
+}
+.formcontainer form{
+    display: grid;
+    width: 100%;
+}
+.formcontainer input{
+    width: 100%;
+    padding: .8rem;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    margin: 7px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+.formcontainer input:focus{
+    outline: none;
+    border: 1px solid #1877f2;
+}
+.formcontainer input:active{
+    border: 2px solid #0866ff;
+}
+.formcontainer button{
+    background-color: #1877f2;
+    padding: 14px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+.formcontainer button a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Inter' Arial, Helvetica, sans-serif;
+}
+.forgot a{
+    color: #0866ff;
+    display: grid;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    color: #1877f2;
+     font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.linecontainer hr{
+    color: rgb(249, 249, 249);
+    margin: 15px;
+}
+
+.bottomcard{
+    text-align: center;
+}
+
+.bottomcard button{
+    background-color: #42b72a;
+    width: 45%;
+    min-height: 5dvh;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+.bottomcard button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    line-height: 1.5rem;
+}
+.bottomcard button:hover{
+    background-color: rgb(7, 87, 7);
+    transition: 1.5s ease-in-out;
+}
+.cardtext{
+    text-align: center;
+    margin: 20px;
+}
+.cardtext p{
+    font-size: 0.938rem;
+    color: #1c1e21;
+    font-weight: normal;
+    border-top: none;
+    padding-top: 7px;
+    font-family: 'Inter' Arial, Helvetica, sans-serif;
+}
+.cardtext a{
+    color: #1c1e21;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+.cardtext a:hover{
+    text-decoration: underline;
+}
+
+.bottomcontainer{
+    background-color: #ffffff;
+    min-height: 35dvh;
+   
+}
+.footer{
+    max-width: 1128px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 20px;
+}
+
+.languages{
+    width: 100%;
+    padding:10px;
+}
+.languages a{
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: .85rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: 5px;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+.languages a:hover{
+    text-decoration: underline;
+}
+.languages button{
+    color: #434446;
+    font-weight:  bolder;
+    font-size: 1rem;
+    padding: .05rem .5rem;
+    border: 1px solid #8a8d91;
+    border-radius: .2rem;
+}
+.languages button:hover{
+    text-decoration: underline;
+    color: black;
+}
+.hr{
+    margin: 10px;
+    width: 100%;
+}
+.hr hr{
+    border: .021rem solid rgb(231, 227, 227);
+}
+.links{
+    width: 100%;
+}
+.links a{
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: .85rem;
+    font-weight: 500;
+    padding: 7px;
+    line-height: 1.5rem;
+    font-family: 'Inter' Arial, Helvetica, sans-serif;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.copyright {
+    color: #8a8d91;
+    font-size: 12px;
+    padding-top: 20px;
+}

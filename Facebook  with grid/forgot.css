@@ -1,0 +1,206 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #fff;
+    max-width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.title h1{
+    font-size: 2.5rem;
+    line-height: 1rem;
+    color: #1877f2;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+.section{
+    display: flex;
+    gap: 1rem;
+}
+.section label input{
+    padding: 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+    align-items: center;
+}
+.section .input {
+    height: 20px;
+}
+.section button{
+    width: 5.625rem;
+    outline: none;
+    border: none;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    border-radius: 10px;
+    cursor: pointer;
+}
+.section a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'inter';
+    font-weight: 200;
+    align-self: center;
+    color: #1877f2;
+}
+.section a:hover{
+    text-decoration: underline;
+}
+.center{
+    background-color: #e7e7e7;
+    min-height: 30dvh;
+    padding-top: 5%;
+    padding-bottom: 3.125rem;
+}
+.form-container{
+    max-width: 470px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 
+    0 2px 5px rgba(115, 115, 115, 0.1),
+    0 5px 10px rgba(135, 135, 135, 0.2),
+    0 10px 20px rgba(123, 123, 123, 0.3),
+    0 20px 40px rgba(214, 214, 214, 0.4);
+}
+.logo-container p{
+    color: #000;
+    font-size: 1.25rem;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 1rem;
+}
+.form-container hr{
+    height: 1px;
+    border: none;
+    background-color: #b5b5b4;
+}
+.form-group p{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+.form-group input{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #bcbcbc;
+}
+.btns{
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.btn1{
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: #dfdfde;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inter';
+    cursor: pointer;
+}
+.btn2{
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: #1778f2;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inter';
+    cursor: pointer;
+}
+.btn2:hover{
+    background: #045bcd;
+}
+
+.bottomcontainer{
+    background-color: #ffffff;
+    min-height: 45dvh;
+   
+}
+.footer{
+    max-width: 1128px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 20px;
+}
+
+.languages{
+    width: 100%;
+    padding:10px;
+}
+.languages a{
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: .85rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: 5px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+.languages a:hover{
+    text-decoration: underline;
+}
+.languages button{
+    color: #434446;
+    font-weight:  bolder;
+    font-size: 1rem;
+    padding: .05rem .5rem;
+    border: 1px solid #8a8d91;
+    border-radius: .2rem;
+}
+.languages button:hover{
+    text-decoration: underline;
+    color: black;
+}
+.hr{
+    margin: 10px;
+    width: 100%;
+}
+.hr hr{
+    border: .021rem solid rgb(231, 227, 227);
+}
+.links{
+    width: 100%;
+}
+.links a{
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: .85rem;
+    font-weight: 500;
+    padding: 7px;
+    line-height: 1.5rem;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.copyright {
+    color: #8a8d91;
+    font-size: 12px;
+    padding-top: 20px;
+}
